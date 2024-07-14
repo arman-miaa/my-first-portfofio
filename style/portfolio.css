@@ -232,6 +232,12 @@ footer textarea{
         .banner{
         flex-direction: column;
     }
+    nav > ul{
+        gap: 20px;
+    }
+    .btn-primary{
+        margin-bottom: 20px;
+    }
     .banner{
         margin: 20px;
     }
