@@ -223,8 +223,23 @@ footer textarea{
     display: none;
 }
 @media screen and (max-width: 576px) {
-    .skills-container, .resume-container, .secondary-bg, .about-items{
+    .skills-container,
+     .resume-container,
+      .secondary-bg,
+      nav,
+      nav > ul,
+       .about-items,
+        .banner{
         flex-direction: column;
+    }
+    .banner{
+        margin: 20px;
+    }
+    .header {
+        background-image: none;
+    }
+    .banner-profile-pic {
+        width: 100%;
     }
     .secondary-bg, .section-description{
         padding: 20px;
